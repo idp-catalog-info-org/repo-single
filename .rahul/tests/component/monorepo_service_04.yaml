@@ -1,0 +1,13 @@
+apiVersion: harness.io/v1
+kind: Component
+type: tool
+identifier: monorepo_service_04
+name: monorepo_service_04
+owner: user:test_user
+spec:
+  lifecycle: production
+metadata:
+  description: Monorepo service 04 — scale test (TC-037)
+  tags:
+  - monorepo
+  - service-04
