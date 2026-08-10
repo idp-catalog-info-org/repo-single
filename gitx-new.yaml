@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: database
+type: service
+identifier: Create_a_new_Database
+name: Create a new Database
+owner: group:account/ciplugins
+spec:
+  lifecycle: qa
+metadata:
+  tags:
+  - core-service
